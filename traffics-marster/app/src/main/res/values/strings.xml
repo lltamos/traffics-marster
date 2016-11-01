@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">公路通</string>
+    <string name="save">保存</string>
+    <array name="fr_tool_fields">
+        <item>设置</item>
+        <item>新建地图</item>
+        <item>导出地图</item>
+        <item>关于</item>
+    </array>
+
+    <array name="fr_tool_fields_icon">
+        <item>Tool</item>
+        <item>New</item>
+        <item>Exp</item>
+        <item>Help</item>
+    </array>
+
+    <array name="tool_set">
+        <item>采集设置</item>
+        <item>背景地图设置</item>
+        <item>公路地图</item>
+    </array>
+    <string name="basemap_url">http://cache1.arcgisonline.cn/ArcGIS/rest/services/ChinaOnlineCommunity/MapServer</string>
+
+</resources>

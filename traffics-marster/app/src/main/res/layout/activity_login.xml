@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame" />
+
+    <com.traffics_marster.misc.weiget.IconEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        widget:hint="单位名称"
+        widget:iconSrc="@android:drawable/sym_action_call"
+        widget:isPassword="false" />
+
+    <com.traffics_marster.misc.weiget.IconEditText
+        android:id="@+id/iet_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        widget:hint="用户名称"
+        widget:iconSrc="@android:drawable/ic_lock_idle_lock"
+        widget:isPassword="false" />
+
+    <com.traffics_marster.misc.weiget.IconEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        widget:hint="机器默认识别码"
+        widget:iconSrc="@android:drawable/ic_lock_idle_lock"
+        widget:isPassword="false" />
+
+    <com.traffics_marster.misc.weiget.IconEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        widget:hint="注册码"
+        widget:iconSrc="@android:drawable/ic_lock_idle_lock"
+        widget:isPassword="false" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        widget:bootstrapSize="lg"
+        widget:bootstrapText="提交" />
+</LinearLayout>
